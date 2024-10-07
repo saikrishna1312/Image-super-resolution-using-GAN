@@ -38,6 +38,8 @@ You can install the required dependencies using `pip`:
 ```bash
 pip install torch torchvision pillow matplotlib numpy
 
+```
+
 ## Dataset
 The Dataset has been downloaded from Div2K High Resolution Images (https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images/data)
 This project uses a dataset of high-resolution images. You need two sets of images:
