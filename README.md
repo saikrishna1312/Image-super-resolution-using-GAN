@@ -2,11 +2,6 @@
 
 This project implements **SRGAN (Super-Resolution GAN)** using PyTorch, a deep learning model that takes **low-resolution (LR)** images and generates corresponding **high-resolution (HR)** images. The SRGAN is based on the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" by Christian Ledig et al (https://arxiv.org/abs/1609.04802).
 
-I have tried to recreate the network architecture as mentioned in the paper but with minor changes:
-![image](https://github.com/user-attachments/assets/333c8747-4bda-4f85-a027-e5b631adb9c7)
-
-
-
 
 ## Introduction
 
@@ -27,6 +22,10 @@ The generator uses **residual blocks** with skip connections to preserve image f
 ### Discriminator
 
 The discriminator is a binary classifier that distinguishes between real and generated HR images. It consists of convolutional layers with increasing depth, followed by fully connected layers, and outputs a probability (real/fake).
+
+I have tried to recreate the network architecture as mentioned in the paper but with minor changes:
+![image](https://github.com/user-attachments/assets/333c8747-4bda-4f85-a027-e5b631adb9c7)
+
 
 ## Installation
 
