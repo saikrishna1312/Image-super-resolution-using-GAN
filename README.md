@@ -71,6 +71,6 @@ Low-Resolution (LR) Image
 Generated Super-Resolution (SR) Image
 Original High-Resolution (HR) Image
 
-I have saved my result in the Result folder.
+I have saved my result in the Eval folder.
 
 
