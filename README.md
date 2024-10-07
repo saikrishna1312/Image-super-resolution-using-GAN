@@ -44,8 +44,9 @@ pip install torch torchvision pillow matplotlib numpy
 The Dataset has been downloaded from Div2K High Resolution Images (https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images/data)
 This project uses a dataset of high-resolution images. You need two sets of images:
 
- - **High-Resolution (HR) Images**: Original high-resolution images.
- - **Low-Resolution (LR) Images**: Downscaled versions of HR images obtained after running down_scale.py file which will downscale the image by a given factor (4 in this case).
+ - **High-Resolution (HR) Images**: Original high-resolution images obtained from the dataset.
+ - **Low-Resolution (LR) Images**: Downscaled versions of HR images. 
+The dataset only has High-Resolution images and to obtain the Low-Resolution images run the down_scale.py file. This will downscale the image by a given factor (4 in my case).
 
 You can use any image dataset of your choice. In this project, LR images are resized to 64x64 and HR images to 256x256 to save time and compute.
 
