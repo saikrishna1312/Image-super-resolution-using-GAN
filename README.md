@@ -50,7 +50,7 @@ The dataset only has High-Resolution images and to obtain the Low-Resolution ima
 
 You can use any image dataset of your choice. In this project, LR images are resized to 64x64 and HR images to 256x256 to save time and compute.
 
-Placed the training images in the following directories:
+Place the training images in the following directories:
  - train_LR/: Low-resolution images (e.g., 64x64)
  - train_HR/: High-resolution images (e.g., 256x256)
 
