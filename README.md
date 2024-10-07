@@ -58,18 +58,18 @@ Place the validation images in the following directories:
  - val_HR/: High-resolution validation images
 
 ## Training Process
-The generator is trained to minimize pixel-wise loss (MSE) and fool the discriminator.
-The discriminator is trained to distinguish between real and fake HR images.
-The VGG loss (perceptual loss) ensures that the generated images look realistic by matching high-level features between real and generated images.
+ - The generator is trained to minimize pixel-wise loss (MSE) and fool the discriminator.
+ - The discriminator is trained to distinguish between real and fake HR images.
+ - The VGG loss (perceptual loss) ensures that the generated images look realistic by matching high-level features between real and generated images.
 
 ## Evaluation
 This will generate super-resolution (SR) images from the validation LR images and display/save them alongside the original HR images.
 
 The script outputs the following images for comparison:
 
-Low-Resolution (LR) Image
-Generated Super-Resolution (SR) Image
-Original High-Resolution (HR) Image
+ - Low-Resolution (LR) Image
+ - Generated Super-Resolution (SR) Image
+ - Original High-Resolution (HR) Image
 
 I have saved my result in the Eval folder.
 
