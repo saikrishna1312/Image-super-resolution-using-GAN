@@ -2,6 +2,12 @@
 
 This project implements **SRGAN (Super-Resolution GAN)** using PyTorch, a deep learning model that takes **low-resolution (LR)** images and generates corresponding **high-resolution (HR)** images. The SRGAN is based on the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" by Christian Ledig et al (https://arxiv.org/abs/1609.04802).
 
+I have tried to recreate the network architecture as mentioned in the paper but with minor changes:
+![image](https://github.com/user-attachments/assets/333c8747-4bda-4f85-a027-e5b631adb9c7)
+
+
+
+
 ## Introduction
 
 Super-Resolution GAN (SRGAN) is a state-of-the-art model for generating **high-resolution images** from **low-resolution inputs**. The GAN framework consists of two networks: the **generator** and the **discriminator**. The generator attempts to generate realistic HR images, while the discriminator tries to differentiate between real HR images and generated HR images.
